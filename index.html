@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10">
+    <!-- Refreshes the page every 10 seconds-->
+    <title>My Personal Bio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript link -->
+    <script src="script.js"></script>
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+     <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Welcome to My Bio Page</h1>
+            <p class="subtitle">My First HTML & CSS Project</p>
+         </header>
+
+        <!-- Main Content --> 
+        <main>
+            <!-- Profile Section -->
+            <section class="profile-section">
+                <div class="profile-image">
+                    <img src="images/profile 2.jpeg" alt="Profile Picture">
+                </div>
+                
+                <div class="profile-info">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm learning web development and this is my first project using HTML and CSS. I'm excited to build more projects and improve my skills.</p>
+                    
+                    <div class="personal-details">
+                        <p><i class="fas fa-user"></i> <strong>Name:</strong> Victor Githinji</p>
+                        <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Nairobi, Kenya</p>
+                        <p><i class="fas fa-graduation-cap"></i> <strong>Learning:</strong> HTML, CSS, JavaScript</p>
+                        <p><i class="fas fa-heart"></i> <strong>Interests:</strong> Coding, Chess, Poetry</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills/Interests Section -->
+            <section class="skills-section">
+                <h2>My Skills & Interests</h2>
+                <div class="skills-container">
+                    <div class="skill">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                        <p>Learning to structure web pages</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                        <p>Styling and designing websites</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-palette"></i>
+                        <h3>Design</h3>
+                        <p>Creating visually appealing layouts</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Problem Solving</h3>
+                        <p>Figuring out how to make things work</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects-section">
+                <h2>Projects I Want to Build</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>A personal portfolio to showcase all my projects and skills.</p>
+                        <span class="tag">Future</span>
+                    </div>
+                    <div class="project-card">
+                        <h3>Blog Layout</h3>
+                        <p>A responsive blog with articles, images, and a sidebar.</p>
+                        <span class="tag">Future</span>
+                        </div>
+                        <div class="project-card">
+                        <h3>Alot More incredible stuff</h3>
+                        <p>Apps, Systems and etc.</p>
+                        <span class="tag">Future</span>
+                    </div>
+                </div>
+            </section>
+
+           
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a href="https://github.com/victorgith3-cyber"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://codepen.io/Victor-Gith"><i class="fab fa-codepen"></i> CodePen</a>
+                    <a href="https://www.linkedin.com/in/victor-githinji-569a55322/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+                   <div>
+                    <button type="submit" class="send-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+               </div>
+                <p class="copyright">Made with ❤️ as my first HTML & CSS project</p>
+                <p class="copyright">© 2026 - Learning Web Development</p>
+            </div>
+        </footer>
+    </div>
+    <!-- Popup Message -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup">
+            <div class="popup-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Thank You!</h3>
+            <p>Your message has been sent successfully. I'll get back to you as soon as possible.</p>
+            <button class="close-btn" id="closePopup">Close</button>
+        </div>
+    </div>
+</body>
+</html>
